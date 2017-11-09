@@ -3,7 +3,10 @@
 	"token": "Mzc4MjgzMTIxNDQwNzE4ODQ5.DOZiuw.UlDFBeOvhzSXY8bHRMi5ee8fOvg",
 	"prefix": "!",
 	"roles": [
-		"radish role",
-		"potato role"
+		"swtor",
+		"swtor pve",
+		"swtor pvp",
+		"swtor rp",
+		"swtor conquest"
 	]
 }
