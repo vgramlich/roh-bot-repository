@@ -10,7 +10,7 @@ exports.run = (client, message, args) => {
                 message.member.removeRole(role);
                 message.channel.sendMessage(`${message.author}, you were removed from the requested role.`)
                     .then(function(msg) {
-                        msg.delete(5000);
+                        msg.delete(15000);
                     })
                     .catch(console.error);
             }
@@ -18,7 +18,7 @@ exports.run = (client, message, args) => {
                 message.member.addRole(role);
                 message.channel.sendMessage(`${message.author}, you were added to the requested role.`)
                     .then(function(msg) {
-                        msg.delete(5000);
+                        msg.delete(15000);
                     })
                     .catch(console.error);
             }
