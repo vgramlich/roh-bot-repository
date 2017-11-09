@@ -1,0 +1,14 @@
+{
+  "name": "roh-bot",
+  "version": "0.0.1",
+  "description": "No description",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "Mr Robot",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.0.0"
+  }
+}
